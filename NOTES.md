@@ -20,4 +20,11 @@
 - Stacked 6 blocks into complete transformer encoder
 - Key insight: Residual + norm after each sub-layer is critical
 
-## Next: Positional encoding and input embeddings
+## Dec 24 - Positional Encoding
+- Implemented sinusoidal positional encoding
+- Added token embeddings with sqrt(d_model) scaling
+- Built complete input layer (tokens → embeddings → positions → dropout)
+- Key insight: Without position info, attention can't distinguish word order
+- Sin/cos allows model to learn relative positions
+
+## Next: Complete transformer with training loop
