@@ -35,7 +35,7 @@ All components built from scratch using PyTorch:
 - Visualizations for understanding attention patterns
 
 ## Structure
-
+```
 notebooks/
 ├── 01_attention_basics.ipynb       # Scaled dot-product attention
 ├── 02_multihead_attention.ipynb    # Multi-head mechanism
@@ -44,7 +44,7 @@ notebooks/
 └── 05_complete_transformer.ipynb   # Full model + training
 ```
 
-## Key Learnings
+## Key Concepts
 
 **Attention**: Computes relationships between sequence positions
 **Multi-head**: Multiple parallel attention patterns for richer representations
@@ -52,8 +52,6 @@ notebooks/
 **Positional Encoding**: Injects sequence order information
 **Training**: Standard next-token prediction with cross-entropy loss
 
-## Status
-✅ Week 1 complete (Days 1-5)
 🔄 Next: Code refactoring and production modules
 
 ## Visualizations
@@ -62,6 +60,4 @@ notebooks/
 - Positional encoding structure
 - Training loss curves
 
----
 
-*Part of year-long deep dive into AI systems engineering*
