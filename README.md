@@ -35,7 +35,7 @@ All components built from scratch using PyTorch:
 - Visualizations for understanding attention patterns
 
 ## Structure
-```
+
 notebooks/
 ├── 01_attention_basics.ipynb       # Scaled dot-product attention
 ├── 02_multihead_attention.ipynb    # Multi-head mechanism
