@@ -1,0 +1,38 @@
+# Learning Log
+
+## Attention Mechanism
+- Implemented scaled dot-product attention
+- Created visualization of attention weights
+- Built reusable PyTorch module
+- Key insight: Scaling by √d_k prevents softmax saturation
+
+## Multi-Head Attention
+- Implemented multi-head attention with 8 heads
+- Each head learns different relationship patterns
+- Added causal masking for autoregressive generation
+- Compared single vs multi-head architectures
+- Key insight: Multiple perspectives > single perspective
+
+## Transformer Block
+- Built feed-forward network with 4x expansion (512→2048→512)
+- Added layer normalization for training stability
+- Implemented residual connections (prevents gradient issues)
+- Stacked 6 blocks into complete transformer encoder
+- Key insight: Residual + norm after each sub-layer is critical
+
+## Positional Encoding
+- Implemented sinusoidal positional encoding
+- Added token embeddings with sqrt(d_model) scaling
+- Built complete input layer (tokens → embeddings → positions → dropout)
+- Key insight: Without position info, attention can't distinguish word order
+- Sin/cos allows model to learn relative positions
+
+## Complete Transformer
+- Assembled all components into full model
+- Created training loop with backpropagation
+- Trained on toy sequence prediction task
+- Model achieves ~70-80% accuracy after 50 epochs
+- Key insight: The whole thing actually works!
+
+## Next: Code refactoring and final polish
+
