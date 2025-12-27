@@ -36,15 +36,21 @@ All components built from scratch using PyTorch:
 
 ## Structure
 ```
-notebooks/
-├── 01_attention_basics.ipynb       # Scaled dot-product attention
-├── 02_multihead_attention.ipynb    # Multi-head mechanism
-├── 03_transformer_block.ipynb      # Complete transformer block
-├── 04_positional_encoding.ipynb    # Position embeddings
-└── 05_complete_transformer.ipynb   # Full model + training
-```
+src/transformer/          # Production modules
+├── attention.py         # Multi-head attention
+├── feedforward.py       # Position-wise FFN
+├── encoding.py          # Positional encoding & embeddings
+├── layers.py            # Transformer blocks
+└── model.py             # Complete model
 
-## Key Concepts
+notebooks/               # Exploratory implementations
+├── 01_attention_basics.ipynb
+├── 02_multihead_attention.ipynb
+├── 03_transformer_block.ipynb
+├── 04_positional_encoding.ipynb
+├── 05_complete_transformer.ipynb
+└── 06_test_modules.ipynb
+```
 
 **Attention**: Computes relationships between sequence positions
 **Multi-head**: Multiple parallel attention patterns for richer representations
@@ -52,12 +58,5 @@ notebooks/
 **Positional Encoding**: Injects sequence order information
 **Training**: Standard next-token prediction with cross-entropy loss
 
-🔄 Next: Code refactoring and production modules
-
-## Visualizations
-- Attention weight heatmaps
-- Multi-head pattern analysis
-- Positional encoding structure
-- Training loss curves
 
 
