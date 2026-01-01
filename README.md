@@ -4,7 +4,7 @@ Complete implementation of transformer architecture from first principles using 
 
 ## Overview
 
-This repository contains a clean, educational implementation of the transformer architecture introduced in "Attention Is All You Need". Built from scratch to understand every component deeply.
+This repository contains a clean implementation of the transformer architecture introduced in "Attention Is All You Need" (Vaswani et al., 2017). All components built from scratch without using pre-built transformer libraries.
 
 ## Features
 
