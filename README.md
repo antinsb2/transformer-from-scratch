@@ -183,6 +183,11 @@ This is an educational implementation. For production use, consider:
 - [The Annotated Transformer](http://nlp.seas.harvard.edu/annotated-transformer/) - Detailed walkthrough
 - [Andrej Karpathy's nanoGPT](https://github.com/karpathy/nanoGPT) - Minimal GPT implementation
 
+## Disclaimer
+   This is a personal educational project for learning AI/ML fundamentals. 
+   All code is original work based on publicly available research papers and tutorials.
+   No proprietary or confidential information from any employer is included.
+
 ## License
 
 MIT
